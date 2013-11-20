@@ -6,7 +6,7 @@
     <meta charset="utf-8"
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -27,23 +27,46 @@ margin-bottom:-100px;
 background-color: #000000;
 color: #ffffff;
     margin-top: 5px;
+    margin-bottom: -30px;
     padding:5px;
 }
+    .facebook{
+        margin-left: 1255px;
+        margin-top: -40px;
+    }
+    .twitter{
+        margin-top: -40px;
+    }
+    .Vkontakte{
+        margin-top: -40px;
+    }
+    .text{
+        margin-left: 40px;
+    }
 </style>
 <body>
 <div class="info">
-<p>Дзвоніть нам: (+38) 050 432 08 07</p>
+<div class="text">Дзвоніть нам: (+38) 050 432 08 07</div>
+
+    <img src="facebook.jpg" class="facebook" width="30" height="30">
+    <img src="twitter.jpg" class="twitter" width="30" height="30">
+    <img src="Vkontakte.jpg" class="Vkontakte" width="30" height="30">
+
 </div>
+
 <div class="well">
-<nav class="navbar" role="navigation">
+
+    <nav class="navbar" role="navigation">
 <a class="navbar-brand" href="#"><img src="логотип.jpg" class="logotip"></a>
-<a class="navbar-brand btn-sm btn-primary " href="#">Головна сторінка</a>
+<div class="btn-group"><a class="navbar-brand btn-primary" href="#">Головна сторінка</a>
 <ul class="nav navbar-nav">
-      <li><a href="#">Сторінка1</a></li>
-	  <li><a href="#">Сторінка2</a></li>
-	  <li><a href="#">Сторінка3</a></li>
-	  <li><a href="#">Сторінка4</a></li>
-	  </ul>
+      <li><a class="btn" href="#">Сторінка1</a></li>
+	  <li><a class="btn" href="#">Сторінка2</a></li>
+	  <li><a class="btn" href="#">Сторінка3</a></li>
+	  <li><a class="btn" href="#">Сторінка4</a></li>
+
+
+</ul>
 
 	  <form class="navbar-form navbar-right" role="search">
       <div class="form-group">
@@ -52,6 +75,7 @@ color: #ffffff;
       <button type="submit" class="btn btn-info btn-default">Пошук</button>
     </form>
 </nav>
+</div>
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://code.jquery.com/jquery.js"></script>
