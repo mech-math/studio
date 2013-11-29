@@ -1,85 +1,132 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Головна сторінка</title>
+  <head>
+    <title>Створюємо сайти</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8"
-    <!-- Bootstrap -->
+    <meta charset="utf-8">
+	<!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="css/kolyan.css" rel="stylesheet">
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
-</head>
-<style type="text/css">
-.well{
-    margin-top:10px;
-margin-bottom:5px;
-}
-.logotip{
-margin-top:-100px;
-margin-bottom:-100px;
-}
-.info{
-background-color: #000000;
-color: #ffffff;
-    margin-top: 5px;
-    margin-bottom: -30px;
-    padding:5px;
-}
-    .facebook{
-        margin-left: 1255px;
-        margin-top: -40px;
-    }
-    .twitter{
-        margin-top: -40px;
-    }
-    .Vkontakte{
-        margin-top: -40px;
-    }
-    .text{
-        margin-left: 40px;
-    }
-</style>
-<body>
-<div class="info">
-<div class="text">Дзвоніть нам: (+38) 050 432 08 07</div>
+  </head>
+  <body>
+    <div class="background">
+    <div class="container-fluid">
+    <div class="row-fluid">
+ <div class=" col-md-10 col-lg-10 col-sm-10 block">
+     <div id="contact"><h5>Наші контактні дані: (+38) 098 628 4307</h5></div>
+ </div>
+        <div class=" col-md-2 col-lg-2 col-sm-2 block">
+            <img src="img/Facebook.png">
+            <img src="img/Twitter.png">
+            <img src="img/vkontakte.png">
+            <img src="img/google_plus.png">
+        </div>
+     </div>
+     </div>
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-12 col-lg-12 col-sm-12  block2">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-btn navbar-static-top  navbar-inverse nav-justified" role="navigation" id="nav">
+                        <ul class="nav navbar-nav">
+                            <li><a class=" navbar-brand" href="#"><img src="img/log.png" id="log"></a></li>
+                            <li><a class="btn" href="#" id="home">Головна</a></li>
+                            <li><a href="#">Про нас</a></li>
+                            <li>
+                                <a  data-toggle="dropdown" href="#">Послуги</a>
+                                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                                    <li><a href="#">Створення сайтів</a></li>
+                                    <li><a href="#">Хостинг сайтів</a></li>
+                                    <li><a href="#">SEO-просування сайтів</a></li>
+                                    <li class="dropdown-submenu">
+                                        <a  tabindex="-1" href="#">Додаткові послуги</a>
+                                        <ul  class="dropdown-menu">
+                                          <li><a href="#">Реклама в інтернеті</a></li>
+                                            <li><a href="#">Підтримка сайтів</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Дизайни для сайтів</a></li>
+                            <li><a href="#">Блог</a></li>
+                            <li><a href="#">Контакти</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+         </div>
+    </div>
 
-    <img src="facebook.jpg" class="facebook" width="30" height="30">
-    <img src="twitter.jpg" class="twitter" width="30" height="30">
-    <img src="Vkontakte.jpg" class="Vkontakte" width="30" height="30">
+	<div class="container-fluid">
+        <div class="row-fluid">
+            <div class=" col-md-12 col-lg-12 col-sm-12 block3">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+                    <ol class="carousel">
+                    </ol>
+
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/slide1.jpg"alt="Офіс">
+                            <div class="carousel-caption">
+                                <p><h1>Сайт на будь-який смак</h1></p>
+                                <br><h3>Створюємо сайти що приносять прибуток</h3>
+                                <br><h1><a class="btn btn-primary btn-lg" href="#">Замовити сайт</a></h1>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="img/slide2.jpg"alt="Офіс">
+                            <div class="carousel-caption">
+
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="img/slide3.jpg"alt="Офіс">
+                            <div class="carousel-caption">
+
+                            </div>
+                         </div>
+
+                    </div>
+
+
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+	</div>
+            <div class="container-fluid">
+                <div class="row-fluid">
+                   <div class="col-md-10 col-lg-10 col-sm-10 block4">
+                       <h3 id="mdk1">MDK STUDIO - студія веб-дизайну, яка займається створенням та просуванням веб-сайтів, а також рекламою в Інтернеті.</h3>
+                       <p id="mdk2">MDK STUDIO пропонує якісні послуги за конкурентноспроможною ціною, що впишеться в будь-який бюджет. Ми пропонуємо Вам весь спектр послуг від консалтингу, розробки дизайну, програмування, тестування, хостингу, маркетингу і підтримки Ваших Інтернет-проектів. Наші послуги орієнтовані на те, щоб Ваша присутність в Інтернеті була привабливою, вигідною і ефективною.</p>
+                   </div>
+                    <div class="col-md-2 col-lg-2 col-sm-2 block4"></div>
+            </div>
 
 </div>
 
-<div class="well">
 
-    <nav class="navbar" role="navigation">
-<a class="navbar-brand" href="#"><img src="логотип.jpg" class="logotip"></a>
-<div class="btn-group"><a class="navbar-brand btn-primary" href="#">Головна сторінка</a>
-<ul class="nav navbar-nav">
-      <li><a class="btn" href="#">Сторінка1</a></li>
-	  <li><a class="btn" href="#">Сторінка2</a></li>
-	  <li><a class="btn" href="#">Сторінка3</a></li>
-	  <li><a class="btn" href="#">Сторінка4</a></li>
-
-
-</ul>
-
-	  <form class="navbar-form navbar-right" role="search">
-      <div class="form-group">
-        <input type="text" class="form-control" placeholder="Введіть запит">
-      </div>
-      <button type="submit" class="btn btn-info btn-default">Пошук</button>
-    </form>
-</nav>
-</div>
-</div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://code.jquery.com/jquery.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
